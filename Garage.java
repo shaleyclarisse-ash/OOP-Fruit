@@ -1,12 +1,12 @@
-class Garage {
-  public static void main (String [] args){
-    String GarageName;
+class Vehicle {
+    String Brand;
+    String type;
+    int year;
+  
+  void displayVehicle(){
+    System.out.println ("Vehicle Brand: " + Brand);
+    System.out.println ("Vehicle type: " + type);
+    System.out.println ("Year: " + year);
+    System.out.println("-----------------------");
   }
-
-void displayGarage(){
-  System.out.println("Garage Name: " + GarageName);
-}
-void parkVehicle(){
-  System.out.println("Parking vehicle in the garage");
-}
 }
