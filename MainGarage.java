@@ -4,19 +4,19 @@ public static void main (String [] args){
     Vehicle car1 = new Vehicle();
     Vehicle car2 = new Vehicle();
     
-    Garage.GarageName = "Parking City Gate";
+    myGarage.GarageName = "Parking City Gate";
     
     car1.Brand = "Toyota";
     car1.type = "Sedan";
     car1.year = 2022;
+    car1.displayVehicle();
     
     car2.Brand = "Porsche";
     car2.type = "Sports Car";
     car2.year = 1963;
+    car2.displayVehicle();
   
     myGarage.displayGarage();
-    car1.displayVehicle();
-    car2.displayVehicle();
-    
+   
 }
 }
