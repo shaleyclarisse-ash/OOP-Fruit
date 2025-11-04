@@ -1,15 +1,4 @@
-class Gadget{
-    String brand; 
-    String type;
-    int price;
-}
-
-void displayInfo(){
-    System.out.println("Gadget Brand: " + brand);
-    System.out.println("Gadget Type: " + type);
-    System.out.println("Gadget Price: " + price);   
-}
-
+public class Main{
 public static void main (String [] args){
     Gadget Samsung = new Gadget();
     Gadget Apple = new Gadget();
@@ -35,4 +24,17 @@ public static void main (String [] args){
 
     Samsung.displayInfo();
     System.out.println("--------------------------");
+}
+}
+
+class Gadget{
+    String brand; 
+    String type;
+    int price;
+    
+    void displayInfo(){
+    System.out.println("Gadget Brand: " + brand);
+    System.out.println("Gadget Type: " + type);
+    System.out.println("Gadget Price: " + price);   
+}
 }
