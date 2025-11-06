@@ -9,4 +9,6 @@ class Vehicle {
     System.out.println ("Year: " + year);
     System.out.println("-----------------------");
   }
+   void parkVehicle(){
+    System.out.println ("Parking vehicle in the garage");
 }
