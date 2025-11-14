@@ -3,7 +3,7 @@ class Movie {
   String genre;
   double rating;
   
-   Movie(String favtitle, String favgenre, double favrating){
+   public Movie(String favtitle, String favgenre, double favrating){
     title = favtitle;
     genre = favgenre;
     rating = favrating;
