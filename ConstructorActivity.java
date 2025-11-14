@@ -1,20 +1,20 @@
-public class Movie {
+class Movie {
   String title;
   String genre;
   double rating;
   
-  public Movie(String favtitle, String favgenre, double favrating){
+   Movie(String favtitle, String favgenre, double favrating){
     title = favtitle;
     genre = favgenre;
     rating = favrating;
   }
   
   public void displayInfo() {
-    System.out.println("```Movie```");
+    System.out.println("------Movie------");
     System.out.println("Title: " + title);
     System.out.println("Genre: " + genre);
     System.out.println("Rating: " + rating);
-    System.out.println("````````````````");
+    System.out.println("-----------------");
   }
 }
 public class Main{
