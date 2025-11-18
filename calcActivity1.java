@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     static class Calculator {
-        public double addition (double a, double b){
+        public double addition (double a, double b){    //Parameter
             return a + b;
         }
         public double subtraction (double a, double b) {
@@ -32,7 +32,7 @@ public class Main {
 
         scan.close();
 
-        System.out.println("Addition Result: " + calc.addition(a, b));
+        System.out.println("Addition Result: " + calc.addition(a, b)); //Argument
         System.out.println("Subtraction Result: " + calc.subtraction(a, b));
         System.out.println("Multiplication Result: " + calc.multiplication(a, b));
         System.out.println("Division Result: " + calc.division(a, b));
