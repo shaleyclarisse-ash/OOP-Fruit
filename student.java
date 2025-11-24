@@ -12,7 +12,8 @@ class Student {
       this.subject = subject;
       this.examGrade1 = examGrade1;
       this.examGrade2 = examGrade2;
-      
+
+      System.out.println("");
       System.out.println("-------Student Details-------");
     }
     
